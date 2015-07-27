@@ -1,8 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset='utf-8'/>
-<title> test </title>
-</head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> web test </title>
 
-<p> this is test pages</p>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div id='top_buttons'>
+	<button class="btn btn-default" type="submit">企業の皆様へ</button>
+	<button class="btn btn-default" type="submit">アクセスマップ</button>
+	<button class="btn btn-default" type="submit">資料請求</button>
+</div>
+
+<!--
+<header class="joomla-header span-16 append-1">
+	<div class="nivoSlider" id="slider">
+			<img alt="" src="http://www.it-college.ac.jp/images/TopImage/image001.png" style="font-size: 12px;" /> <img alt="" src="http://www.it-college.ac.jp/images/TopImage/image002a.png" /> <img alt="" src="http://www.it-college.ac.jp/images/TopImage/image003a.png" /><img alt="" src="http://www.it-college.ac.jp/images/TopImage/image004.png" /><img alt="" src="http://www.it-college.ac.jp/images/TopImage/image005a.png" style="font-size: 12px;" /></div>
+</header>
+-->
+
+<div id='header_images'>
+	<img alt='' src='http://www.it-college.ac.jp/images/TopImage/image001.png' stype='font-size: 12px;'/>
+</div>
+
+<div class='row'>
+	<div class='col-md-4'>
+		<div class="span-7 last">
+			<h3>検　索</h3>
+			<form action="/" method="post" class="inline">
+				<div class="search">
+					<input name="searchword" id="mod-search-searchword" maxlength="20" class="inputbox" type="text" size="20" value="検索..."  onblur="if (this.value=='') this.value='検索...';" onfocus="if (this.value=='検索...') this.value='';" />  <input type="hidden" name="task" value="search" />
+					<input type="hidden" name="option" value="com_search" />
+					<input type="hidden" name="Itemid" value="115" />
+				</div>
+			</form>
+
+			<h3>home</h3>
+			<!-- The class on the root UL tag was changed to match the Blueprint nav style -->
+			<ul class="joomla-nav" id="home">
+				<li class="item139"><a href="http://www.it-college.ac.jp/" >home</a></li></ul>
+			<h3>学科一覧</h3>
+			<!-- The class on the root UL tag was changed to match the Blueprint nav style -->
+			<ul class="joomla-nav">
+				<li class="item152"><a href="/net2.html" >ネットワークセキュリティ科</a></li><li class="item102"><a href="/itsystem-2.html" >ITスペシャリスト科 (3年)</a></li><li class="item104"><a href="/night.html" >夜間ITエンジニア科</a></li><li class="item103"><a href="/creator.html" >クリエイター科</a></li><li class="item150"><a href="/japan.html" >日本語ITコース</a></li></ul>
+			<h3>Menu</h3>
+			<!-- The class on the root UL tag was changed to match the Blueprint nav style -->
+			<ul class="joomla-nav">
+				<li class="item133"><a href="/open-etc.html" >オープンキャンパス</a></li><li class="item134"><a href="/shiryou-etc.html" >資料請求</a></li><li class="item135"><a href="/syuusyoku-etc.html" >就職・資格</a></li><li class="item136"><a href="/gaiyou-etc.html" >学校概要</a></li><li class="item137"><a href="/nyuushi-etc.html" >入試>情報</a></li></ul>
+			<h3>文部科学省委託事業</h3>
+			<p style="font-size:10pt"> 文部科学省委託事業</p>
+			<p style="font-size:10pt"> &nbsp;</p>
+			<p style="font-size:9pt">
+			<a href="http://26monka-keieikiban.net/it/">平成26年度成長分野等における中核的専門人材養成の戦略的推進事業</a></p>
+			<p style="font-size:9pt">
+			<a href="http://26monka-keieikiban.net/it/">経営基盤強化分野「総合事務人材のITスキル教育プログラム開発</a></p>
+			<p style="font-size:9pt"> &nbsp;</p>
+			<p style="font-size:9pt">
+			URL<a href="http://26monka-keieikiban.net/it/" target="_blank">http://26monka-keieikiban.net/it/</a></p>
+			<p style="font-size:9pt">
+			<a href="http://www.it-college.ac.jp/images/stories/pdf/ITC_H26_houkokusyo.pdf">報告書</a>（平成27年5月20日 更新）&nbsp;<a href="https://get.adobe.com/reader/?loc=jp" style="font-size: 9pt;"><img alt="" src="http://www.it-college.ac.jp/images/stories/pdf/get_adobe_reader.gif" /></a></p>
+			<h3>IT COLLEGE facebook</h3>
+			<div id="fb-root">
+				&nbsp;</div>
+			<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+			<div style="padding: 10px 0px; margin-left: 5px;float:left">
+				<div class="fb-like" data-font="arial" data-href="http://www.facebook.com/ITCOLLEGE" data-layout="button_count" data-send="false" data-show-faces="false" data-width="450" style="padding: 12px 0px;">
+					&nbsp;</div>
+				<div style="clear:left"> &nbsp;</div>
+			</div>
+		</div>
+		<div class='col-md-8'>
+			<h1>サイトマップ</h1>
+			<div class="footerBox">
+			<h2>
+				<a href="/net2.html">ネットワークセキュリティ科</a></h2>
+			<h2>
+				<a href="/itsystem-2.html">ITスペシャリスト科(3年)</a></h2>
+			<h2>
+				<a href="/night.html">夜間ITエンジニア科</a></h2>
+			<h2>
+				<a href="/creator.html">クリエイター科</a></h2>
+			<ul>
+				<li>
+				<a href="/index.php/creator/24-web3">Webサイトデザイン専攻</a></li>
+				<li>
+				<a href="/index.php/creator/7-move">映像コンテンツ専攻 </a></li>
+				<li>
+				<a href="/index.php/creator/8-sound">サウンドコンテンツ専攻</a></li>
+			</ul>
+			<h2>
+				<a href="/japan.html">日本語ビジネスコース</a></h2>
+		</div>
+		<div class="footerBox">
+			<h2>
+				[ <a href="/open-etc.html">オープンキャンパス</a> ]</h2>
+			<ul>
+				<li>
+				<a href="/open-etc/10-open-moushi.html">申込</a></li>
+			</ul>
+			<h2>
+				[<a href="http://www.it-college.ac.jp/shiryou-etc.html"> 資料請求</a> ]</h2>
+		</div>
+		<div class="footerBox">
+			<h2>
+				[ <a href="/syuusyoku-etc.html">就職・資格</a> ]</h2>
+			<ul>
+				<li>
+				<a href="/syuusyoku-etc/11-query-syusyoku.html">就職実績</a></li>
+				<li>
+				<a href="/syuusyoku-etc/13-query-shikaku.html">資格一覧</a></li>
+				<li>
+				<a href="/syuusyoku-etc/14-query-ziseki.html">資格取得実績</a></li>
+			</ul>
+			<h2>
+				[ <a href="http://www.it-college.ac.jp/gaiyou-etc.html">学校概要</a> ]</h2>
+			<ul>
+				<li>
+				<a href="/access-2.html">アクセスマップ</a></li>
+				<li>
+				<a href="/gaiyou-etc/17-enkaku.html">沿　革</a></li>
+			</ul>
+		</div>
+		<div class="footerBox">
+			<h2>
+				[ <a href="http://www.it-college.ac.jp/nyuushi-etc.html">入試情報</a> ]</h2>
+			<ul>
+				<li>
+				<a href="/nyuushi-etc/18-nagare.html">入学までの流れ</a></li>
+				<li>
+				<a href="/nyuushi-etc/19-bosyuu.html">募集要項</a></li>
+				<li>
+				<a href="/nyuushi-etc/20-menzyo.html">免除制度</a></li>
+				<li>
+				<a href="/nyuushi-etc/21-gakuhi.html">学費サポート</a></li>
+			</ul>
+		</div>
+		<div class="footerBox" id="footerBoxE">
+			<h2>
+				[ 学校情報 ]</h2>
+			<ul>
+				<li>
+				〒900-0022&nbsp;</li>
+				<li>
+				沖縄県那覇市樋川 1-1-77</li>
+				<li>
+				電話：098-833-6715</li>
+				<li>
+				FAX：098-833-6714</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
 </html>
